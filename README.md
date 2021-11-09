@@ -13,5 +13,5 @@
 [![Actions status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions/)
 
 <a href="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd" target="_blank"><img src="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd.svg" /></a> install 
-<a href="https://asciinema.org/a/kXZ9YBxuAPqMPNoHmCjim1MKy" target="_blank"><img src="https://asciinema.org/a/kXZ9YBxuAPqMPNoHmCjim1MKy.svg" /></a> brain-even
-<a href="https://asciinema.org/a/awuW2Q90yCtsnBgnzXvAlrBVa" target="_blank"><img src="https://asciinema.org/a/awuW2Q90yCtsnBgnzXvAlrBVa.svg" /></a> brain-calc
+<a href="https://asciinema.org/a/mMLUftQcuB0TydBsPw3bjIGLB" target="_blank"><img src="https://asciinema.org/a/mMLUftQcuB0TydBsPw3bjIGLB.svg" /></a> brain-even
+<a href="https://asciinema.org/a/y1Jay4yUpi0EdINJ4ftat2dKC" target="_blank"><img src="https://asciinema.org/a/y1Jay4yUpi0EdINJ4ftat2dKC.svg" /></a> brain-calc
