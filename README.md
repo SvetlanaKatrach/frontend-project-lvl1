@@ -15,3 +15,4 @@
 <a href="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd" target="_blank"><img src="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd.svg" /></a> install 
 <a href="https://asciinema.org/a/mMLUftQcuB0TydBsPw3bjIGLB" target="_blank"><img src="https://asciinema.org/a/mMLUftQcuB0TydBsPw3bjIGLB.svg" /></a> brain-even
 <a href="https://asciinema.org/a/y1Jay4yUpi0EdINJ4ftat2dKC" target="_blank"><img src="https://asciinema.org/a/y1Jay4yUpi0EdINJ4ftat2dKC.svg" /></a> brain-calc
+<a href="https://asciinema.org/a/SeZAGHsziblVcEoTgAQVH5Tjl" target="_blank"><img src="https://asciinema.org/a/SeZAGHsziblVcEoTgAQVH5Tjl.svg" /></a> brain-gcd
