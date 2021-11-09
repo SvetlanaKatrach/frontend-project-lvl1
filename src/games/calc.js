@@ -30,7 +30,7 @@ const getGameResult = () => {
   const operand2 = getRandomNum(0, maxInGetRandomNum);
   const expressionInQuestion = `${operand1} ${randomOperator} ${operand2}`;
   const expectedAnswer = String(calculateRandomMath(operand1, operand2, randomOperator));
-  const userAnswer = readlineSync.question(`${gameRule} ${expressionInQuestion} \nYour answer: `);
+  const userAnswer = readlineSync.question(`Question: ${expressionInQuestion} \nYour answer: `);
   return [expectedAnswer, userAnswer];
 };
 
