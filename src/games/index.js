@@ -14,6 +14,7 @@ export const greeting = () => {
 export const startGame = (gameRule, getGameResult) => {
   let counter = 0;
   const numberOfRightAnswers = 3;
+  console.log(gameRule);
   while (counter < numberOfRightAnswers) {
     const [expectedAnswer, userAnswer] = getGameResult();
     const rightAnswer = 'Correct!';
