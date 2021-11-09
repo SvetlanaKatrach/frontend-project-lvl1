@@ -8,7 +8,8 @@ const maxValueOfRandomNum = 100;
 const getGameResult = () => {
   const randomNum = getRandomNum(minValueOfRandomNum, maxValueOfRandomNum);
   const expectedAnswer = isEven(randomNum) ? 'yes' : 'no';
-  const userAnswer = readlineSync.question(`${gameRule} \nQuestion: ${randomNum} \nYour answer: `);
+  console.log(gameRule);
+  const userAnswer = readlineSync.question(`Question: ${randomNum} \nYour answer: `);
   return [expectedAnswer, userAnswer];
 };
 
