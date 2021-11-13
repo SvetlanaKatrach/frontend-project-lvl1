@@ -5,21 +5,16 @@ const maxInGetRandomNum = 10;
 const gameRule = 'What is the result of the expression?';
 
 const calculateRandomMath = (operand1, operand2, randomOperator) => {
-  let result;
   switch (randomOperator) {
     case '+':
-      result = operand1 + operand2;
-      break;
+      return operand1 + operand2;
     case '-':
-      result = operand1 - operand2;
-      break;
+      return operand1 - operand2;
     case '*':
-      result = operand1 * operand2;
-      break;
+      return operand1 * operand2;
     default:
-      break;
+      throw new Error(`Operation ${randomOperator} is not supported`);
   }
-  return result;
 };
 
 const getGameResult = () => {
