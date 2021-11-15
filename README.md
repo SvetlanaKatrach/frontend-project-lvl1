@@ -1,5 +1,5 @@
-#Brain Games
-###This is a set of 5 console mini-games to level up your brain:
+# Brain Games
+### This is a set of 5 console mini-games to level up your brain:
 
     brain-even - determination of an even number
     brain-calc - calculation of an arithmetic expressions
@@ -7,7 +7,7 @@
     brain-progression - determination of a missing term in an arithmetic progression
     brain-prime - determination of a prime number
     
-###Installation and launch
+### Installation and launch
 
 $ git clone git@github.com:SvetlanaKatrach/frontend-project-lvl1.git
 $ cd frontend-project-lvl1
@@ -15,10 +15,10 @@ $ make install
 $ npm link
 $ brain-games
 
-##Проект "Игры разума"
+# Проект "Игры разума"
 
 «Игры разума» — набор из пяти консольных игр, позволяющих улучшить работу мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагается пройти ее заново. 
-###Установка
+### Установка
 
 Установите глобально Node.js последней версии в систему.
 Склонируйте созданный репозиторий проекта локально.
@@ -26,7 +26,7 @@ $ brain-games
 Установить пакет как символическую ссылку (npm link)
 Запустите игры (команды в описании игр)
 
-###Игры:
+### Игры:
 
 Команда brain-even. Определение является ли предложенное число четным.
 Команда brain-calc. Решение предложенной армифметической задачи.
