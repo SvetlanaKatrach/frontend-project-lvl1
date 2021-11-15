@@ -1,11 +1,38 @@
+#Brain Games
+###This is a set of 5 console mini-games to level up your brain:
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+    brain-even - determination of an even number
+    brain-calc - calculation of an arithmetic expressions
+    brain-gcd - determination of the greatest common divisor
+    brain-progression - determination of a missing term in an arithmetic progression
+    brain-prime - determination of a prime number
+    
+###Installation and launch
 
-    Калькулятор. Арифметические выражения, которые необходимо вычислить.
-    Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-    Определение четного числа.
-    Определение наибольшего общего делителя.
-    Определение простого числа.
+$ git clone git@github.com:SvetlanaKatrach/frontend-project-lvl1.git
+$ cd frontend-project-lvl1
+$ make install
+$ npm link
+$ brain-games
+
+##Проект "Игры разума"
+
+«Игры разума» — набор из пяти консольных игр, позволяющих улучшить работу мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагается пройти ее заново. 
+###Установка
+
+Установите глобально Node.js последней версии в систему.
+Склонируйте созданный репозиторий проекта локально.
+Выполните установку зависимостей (make install)
+Установить пакет как символическую ссылку (npm link)
+Запустите игры (команды в описании игр)
+
+###Игры:
+
+Команда brain-even. Определение является ли предложенное число четным.
+Команда brain-calc. Решение предложенной армифметической задачи.
+Команда brain-gcd. Нахождение наибольшего общего делителя двух предложенных чисел.
+Команда brain-progression. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
+Команда brain-prime. Определение является ли предложенное число простыми.
 
 ### Hexlet tests, CodeClimate check and linter status:
 [![Actions Status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions)
