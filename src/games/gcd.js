@@ -3,10 +3,10 @@ import { getRandomNum, startGame } from './index.js';
 
 const gameRule = 'Find the greatest common divisor of given numbers.';
 const minValueOfRandomNum = 2;
-const maxValueOfRandomNum = 20;
+const maxValueOfRandomNum = 30;
 
 /* не смогла реализовать через while и for
-подсмотрела, что используют рекурсию
+реализацию подсмотрела
 */
 
 const calculateGreatRandomDivisor = (num1, num2) => {
