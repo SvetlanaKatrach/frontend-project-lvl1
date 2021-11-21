@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNum, startGame } from './index.js';
+import { startGame } from '../index.js';
+import { getRandomNum } from '../get-random.js';
 
 const maxInGetRandomNum = 10;
 const gameRule = 'What is the result of the expression?';
@@ -25,8 +25,7 @@ const getGameResult = () => {
   const operand2 = getRandomNum(0, maxInGetRandomNum);
   const expressionInQuestion = `${operand1} ${randomOperator} ${operand2}`;
   const expectedAnswer = String(calculateRandomMath(operand1, operand2, randomOperator));
-  const userAnswer = readlineSync.question(`Question: ${expressionInQuestion} \nYour answer: `);
-  return [expectedAnswer, userAnswer];
+  return [expectedAnswer, expressionInQuestion];
 };
 
 const calcGame = () => startGame(gameRule, getGameResult);
