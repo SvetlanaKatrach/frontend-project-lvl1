@@ -1,5 +1,5 @@
-import { startGame } from '../index.js';
-import { getRandomNum } from '../get-random.js';
+import startGame from '../index.js';
+import getRandomNum from '../getRandom.js';
 
 const gameRule = 'What number is missing in the progression?';
 
@@ -17,10 +17,10 @@ const getProgression = (firstElement, lengthOfProgression, commonDifference) => 
   return progression;
 };
 
-const getProgressionWithHiddenElement = (progression, hiddenElementIndex) => {
+const getProgressionWithHiddenElement = (progression, hiddenIndex) => {
   const progressionForQuestion = progression;
   for (let i = 0; i < progressionForQuestion.length; i += 1) {
-    if (i === hiddenElementIndex) {
+    if (i === hiddenIndex) {
       progressionForQuestion[i] = '..';
     }
   }
@@ -32,9 +32,9 @@ const getGameResult = () => {
   const lengthOfProgression = getRandomNum(minElementsOfProgression, maxElementsOfProgression);
   const commonDifference = getRandomNum(2, maxRandomValue);
   const progression = getProgression(firstElement, lengthOfProgression, commonDifference);
-  const hiddenElementIndex = getRandomNum(0, lengthOfProgression - 1);
-  const expectedAnswer = String(progression[hiddenElementIndex]);
-  const expressionInQuestion = String(getProgressionWithHiddenElement(progression, hiddenElementIndex));
+  const hiddenIndex = getRandomNum(0, lengthOfProgression - 1);
+  const expectedAnswer = String(progression[hiddenIndex]);
+  const expressionInQuestion = String(getProgressionWithHiddenElement(progression, hiddenIndex));
   return [expectedAnswer, expressionInQuestion];
 };
 
