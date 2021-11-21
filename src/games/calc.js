@@ -1,5 +1,5 @@
-import { startGame } from '../index.js';
-import { getRandomNum } from '../get-random.js';
+import startGame from '../index.js';
+import getRandomNum from '../getRandom.js';
 
 const maxInGetRandomNum = 10;
 const gameRule = 'What is the result of the expression?';
