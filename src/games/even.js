@@ -1,5 +1,5 @@
-import { startGame } from '../index.js';
-import { getRandomNum } from '../get-random.js';
+import startGame from '../index.js';
+import getRandomNum from '../getRandom.js';
 
 const isEven = (num) => num % 2 === 0;
 const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
