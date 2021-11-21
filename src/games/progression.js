@@ -1,5 +1,5 @@
-import readlineSync from 'readline-sync';
-import { getRandomNum, startGame } from './index.js';
+import { startGame } from '../index.js';
+import { getRandomNum } from '../get-random.js';
 
 const gameRule = 'What number is missing in the progression?';
 
@@ -34,9 +34,8 @@ const getGameResult = () => {
   const progression = getProgression(firstElement, lengthOfProgression, commonDifference);
   const hiddenElementIndex = getRandomNum(0, lengthOfProgression - 1);
   const expectedAnswer = String(progression[hiddenElementIndex]);
-  const question = String(getProgressionWithHiddenElement(progression, hiddenElementIndex));
-  const userAnswer = readlineSync.question(`Question: ${question} \nYour answer: `);
-  return [expectedAnswer, userAnswer];
+  const expressionInQuestion = String(getProgressionWithHiddenElement(progression, hiddenElementIndex));
+  return [expectedAnswer, expressionInQuestion];
 };
 
 const progressionGame = () => startGame(gameRule, getGameResult);
