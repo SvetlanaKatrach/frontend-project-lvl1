@@ -1,3 +1,8 @@
+### Hexlet tests, CodeClimate check and linter status:
+[![Actions Status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions)
+[![Actions status](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/SvetlanaKatrach/frontend-project-lvl1/maintainability)
+[![Actions status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions/)
+
 # Brain Games
 ### This is a set of 5 console mini-games to level up your brain:
 
@@ -33,11 +38,6 @@
 >* Команда brain-gcd. Нахождение наибольшего общего делителя двух предложенных чисел.
 >* Команда brain-progression. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
 >* Команда brain-prime. Определение является ли предложенное число простыми.
-
-### Hexlet tests, CodeClimate check and linter status:
-[![Actions Status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions)
-[![Actions status](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/SvetlanaKatrach/frontend-project-lvl1/maintainability)
-[![Actions status](https://github.com/SvetlanaKatrach/frontend-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/SvetlanaKatrach/frontend-project-lvl1/actions/)
 
 ### install
 <a href="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd" target="_blank"><img src="https://asciinema.org/a/YAJQ5fCgP8USmcOwT0BEb1qbd.svg" /></a>  
