@@ -1,13 +1,9 @@
-import readlineSync from 'readline-sync';
-import { getRandomNum, startGame } from './index.js';
+import { startGame } from '../index.js';
+import { getRandomNum } from '../get-random.js';
 
 const gameRule = 'Find the greatest common divisor of given numbers.';
 const minValueOfRandomNum = 2;
 const maxValueOfRandomNum = 30;
-
-/* не смогла реализовать через while и for
-реализацию подсмотрела
-*/
 
 const calculateGreatRandomDivisor = (num1, num2) => {
   if (num2 === 0) {
@@ -21,8 +17,7 @@ const getGameResult = () => {
   const num2 = getRandomNum(minValueOfRandomNum, maxValueOfRandomNum);
   const expressionInQuestion = `${num1} ${num2}`;
   const expectedAnswer = String(calculateGreatRandomDivisor(num1, num2));
-  const userAnswer = readlineSync.question(`Question: ${expressionInQuestion} \nYour answer: `);
-  return [expectedAnswer, userAnswer];
+  return [expectedAnswer, expressionInQuestion];
 };
 
 const gcdGame = () => startGame(gameRule, getGameResult);
