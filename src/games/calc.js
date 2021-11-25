@@ -1,4 +1,4 @@
-import { startGame } from '../index.js';
+import startGame from '../index.js';
 import getRandomNum from '../getRandom.js';
 
 const maxInGetRandomNum = 10;
@@ -19,7 +19,7 @@ const calculateRandomMath = (operand1, operand2, randomOperator) => {
 
 const getGameResult = () => {
   const operators = ['+', '-', '*'];
-  const getRandomOperator = Math.floor(Math.random() * operators.length);
+  const getRandomOperator = getRandomNum(0, 2);
   const randomOperator = operators[getRandomOperator];
   const operand1 = getRandomNum(0, maxInGetRandomNum);
   const operand2 = getRandomNum(0, maxInGetRandomNum);
