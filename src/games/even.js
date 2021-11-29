@@ -3,11 +3,9 @@ import getRandomNum from '../getRandom.js';
 
 const isEven = (number) => number % 2 === 0;
 const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
-const minValueOfRandomNum = 1;
-const maxValueOfRandomNum = 100;
 
 const getGameResult = () => {
-  const expressionInQuestion = getRandomNum(minValueOfRandomNum, maxValueOfRandomNum);
+  const expressionInQuestion = getRandomNum(1, 100);
   const expectedAnswer = isEven(expressionInQuestion) ? 'yes' : 'no';
   return [expectedAnswer, expressionInQuestion];
 };
