@@ -8,21 +8,18 @@ const minElementsOfProgression = 5;
 const maxElementsOfProgression = 10;
 
 const getProgression = (firstElement, lengthOfProgression, commonDifference) => {
-  let result = firstElement;
   const progression = [];
   for (let i = 0; i < lengthOfProgression; i += 1) {
-    progression[i] = result;
-    result += commonDifference;
+    const current = firstElement + (commonDifference * i);
+    progression.push(current);
   }
   return progression;
 };
 
 const getProgressionWithHiddenElement = (progression, hiddenIndex) => {
-  const progressionForQuestion = progression;
+  const progressionForQuestion = Array.from(progression);
   for (let i = 0; i < progressionForQuestion.length; i += 1) {
-    if (i === hiddenIndex) {
-      progressionForQuestion[i] = '..';
-    }
+    progressionForQuestion[hiddenIndex] = '..';
   }
   return progressionForQuestion.join(' ');
 };
