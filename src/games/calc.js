@@ -19,7 +19,7 @@ const calculateRandomMath = (operand1, operand2, randomOperator) => {
 };
 
 const getGameResult = () => {
-  const getRandomOperator = getRandomNum(0, operators.length);
+  const getRandomOperator = getRandomNum(0, operators.length - 1);
   const randomOperator = operators[getRandomOperator];
   const operand1 = getRandomNum(0, maxInGetRandomNum);
   const operand2 = getRandomNum(0, maxInGetRandomNum);
